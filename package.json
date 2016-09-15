@@ -1,0 +1,23 @@
+{
+  "name": "css-background-repeat-dc",
+  "version": "1.0.0",
+  "description": "Css module of single purpose classes for background repeat",
+  "main": "index.js",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.6"
+  },
+  "scripts": {
+    "start": "tachyons src/css-background-repeat.css > css/css-background-repeat.css && tachyons src/css-background-repeat.css --minify > css/css-background-repeat.min.css && tachyons src/css-background-repeat.css --generate-docs --package=../../package.json > readme.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/css-background-repeat-dc.git"
+  },
+  "keywords": [],
+  "author": "David Mark Clements",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/css-background-repeat-dc/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/css-background-repeat-dc#readme"
+}
